@@ -1,0 +1,326 @@
+/* html,
+body {
+    height: 100%;
+    background: #f2f2f2;
+} */
+
+
+
+/* Controls
+---------------------------------------------------------------------- */
+
+/* .controls {
+    padding: 1rem;
+    background: #333;
+    font-size: 0.1px;
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #444;
+    cursor: pointer;
+    font-size: 0.1px;
+    color: white;
+    transition: background 150ms;
+}
+
+.control:hover {
+    background: #3f3f3f;
+}
+
+.control[data-filter]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    border: 2px solid currentColor;
+    border-radius: 2px;
+    background: currentColor;
+    transition: background-color 150ms, border-color 150ms;
+}
+
+.control[data-sort]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    transform:  translateY(1px) rotate(45deg);
+}
+
+.control[data-sort*=":desc"]:after {
+    transform:  translateY(-4px) rotate(-135deg);
+}
+
+.mixitup-control-active {
+    background: #393939;
+}
+
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+
+.control:first-of-type {
+    border-radius: 3px 0 0 3px;
+}
+
+.control:last-of-type {
+    border-radius: 0 3px 3px 0;
+}
+
+.control[data-filter] + .control[data-sort] {
+    margin-left: .75rem;
+}
+
+.control[data-filter=".green"] {
+    color: #91e6c7;
+}
+
+.control[data-filter=".blue"] {
+    color: #5ecdde;
+}
+
+.control[data-filter=".pink"] {
+    color: #d595aa;
+}
+
+.control[data-filter="none"] {
+    color: #2f2f2f;
+} */
+
+/* Container
+---------------------------------------------------------------------- */
+
+.container {
+    padding: 1rem;
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+.container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Grid Items
+---------------------------------------------------------------------- */
+
+.item,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item {
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.item:before {
+    content: '';
+    display: inline-block;
+}
+
+.item.green {
+    color: #91e6c7;
+}
+
+.item.pink {
+    color: #d595aa;
+}
+
+.item.blue {
+    color: #5ecdde;
+}
+
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+
+
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .item,
+    .gap {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .item,
+    .gap {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .item,
+    .gap {
+        width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    }
+}
+
+/*================================= portfolio hover effect =============================*/
+
+
+
+.view {
+  
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    
+}
+.view .mask, .view .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    text-align: center
+}
+.view a.info, button.info {
+    border: none;
+    margin-top: 25px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 12px !important;
+    background: rgb(255, 0, 85) !important;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+[role=tooltip].popup-content{
+    width: 50%  !important;
+}
+
+
+
+
+
+
+
+.view img { 
+    transition: all 0.2s linear;
+}
+.view .mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(3, 2, 0, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view p { 
+    transform: translateY(100px);
+    opacity: 0;
+  transition: all 0.2s linear;
+}
+.view a.info{
+    opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+.view:hover img { 
+  transform: scale(1.1);
+} 
+.view:hover .mask { 
+  opacity: 1;
+}
+.view:hover h2,
+.view:hover p,
+.view:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view:hover p {
+    transition-delay: 0.1s;
+}
+.view:hover a.info {
+    transition-delay: 0.2s;
+}
+h3{
+    color: #ffffff !important;
+}
+
+
+.portfolio, .about, .home, .blog, .resume, .contact, .about{
+  position: relative;
+  animation: mymove 1.2s;
+}
+@keyframes mymove {
+    0% {
+        transform: scale(.3);
+      }
+     
+      100% {
+        transform: scale(1);
+       
+      }
+    }
+
+
+  .modal-backdrop.show{
+      opacity: .4 !important;
+  }
+  #html, #css, #bootstrap, #javascript, #react, #node, #mongo, #express, #material{
+    position: relative;
+    animation: move 3s;
+  }
+  @keyframes move{
+    0% {
+        transform: scale(.3);
+      }
+     
+      100% {
+        transform: scale(1);
+       
+      }
+     
+      /* from{width: 0%}
+      to{width: 100%;} */
+  }
+
+  .ReactModal__Content, .ReactModal__Content--after-open{
+    font-size: 16px;
+  }
+  p{
+      font-size: 16px !important;
+  }
