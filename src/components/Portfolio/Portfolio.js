@@ -329,7 +329,7 @@ const Portfolio = () => {
                                                                         All player have specific amount of weekly salary that will also add in customers total cost price after adding this player. A customer can add maximum eleven player in their team list.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools: <b>React, Bootstrap, Css, FakeData for player list and other essential elements</b>
+                                                                        Using Tools: <b>React, Bootstrap, CSS, FakeData for player list and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -380,7 +380,7 @@ const Portfolio = () => {
                                                                         A user can select some picture for slide show after from search result picture and also can unselect. By clicking create slider a user can see his/her selected picture in slider
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools : <b>JavaScript, ES6, Bootstrap, CSS, Api and other essential elements</b>
+                                                                        Using Tools : <b>HTML, CSS, Bootstrap, JavaScript, ES6, Api and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -432,7 +432,7 @@ const Portfolio = () => {
                                                                         All food showing dynamically in home page, calling by food Api.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                            Using Tools : <b>JavaScript, ES6, Bootstrap, CSS, Api and other essential elements</b>
+                                                                            Using Tools : <b>HTML, CSS, Bootstrap, JavaScript, ES6, Api and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -482,7 +482,7 @@ const Portfolio = () => {
                                                                         A user can book either first class ticket or economy class ticket.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools : <b>JavaScript, ES6, Bootstrap, CSS and other essential elements</b>
+                                                                        Using Tools : <b>HTML, CSS, Bootstrap JavaScript, ES6 and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -532,7 +532,7 @@ const Portfolio = () => {
                                                                     </li>
                                                                     
                                                                     <li className='py-1'>
-                                                                        Using Tools : <b>Bootstrap, CSS and other essential elements</b>
+                                                                        Using Tools : <b>HTML, CSS, Bootstrap and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -581,7 +581,7 @@ const Portfolio = () => {
                                                                     </li>
                                                                     
                                                                     <li className='py-1'>
-                                                                            Using Tools : <b>Html,Bootstrap, CSS and other essential elements</b>
+                                                                            Using Tools : <b>HTML, CSS, Bootstrap and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -631,7 +631,7 @@ const Portfolio = () => {
                                                                     </li>
                                                                     
                                                                     <li className='py-1'>
-                                                                        Using Tools : <b>Javascript, ES6, Html,Bootstrap, CSS and other essential elements</b>
+                                                                        Using Tools : <b>Html,CSS, Bootstrap,Javascript, ES6 and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>

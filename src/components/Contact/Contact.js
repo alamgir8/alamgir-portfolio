@@ -4,7 +4,7 @@ import Navbar from '../Home/Navbar';
 
 const Contact = () => {
 
-    function sendEmail(e) {
+    const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('alamgirEmail', 'alamgirEmailTemplete', e.target, 'user_lSg6AhE7oeZ7rvfZ7jnDk')
