@@ -5,11 +5,13 @@ import Navbar from '../Home/Navbar';
 const Contact = () => {
 
     const sendEmail = (e) => {
+        console.log(e);
         e.preventDefault();
     
         emailjs.sendForm('alamgirEmail', 'alamgirEmailTemplete', e.target, 'user_lSg6AhE7oeZ7rvfZ7jnDk')
           .then((result) => {
               console.log(result.text);
+              alert('Message send Successfully !')
           }, (error) => {
               console.log(error.text);
           });
