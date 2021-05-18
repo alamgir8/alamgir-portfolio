@@ -5,7 +5,7 @@ import Navbar from '../Home/Navbar';
 const Contact = () => {
 
     const sendEmail = (e) => {
-        console.log(e);
+        console.log(e.target);
         e.preventDefault();
     
         emailjs.sendForm('alamgirEmail', 'alamgirEmailTemplete', e.target, 'user_lSg6AhE7oeZ7rvfZ7jnDk')
@@ -38,7 +38,7 @@ const Contact = () => {
                         </div>
                         <div className="mb-3">
                             <label className="form-label h6">Message</label>
-                            <textarea name="message" className="form-control" placeholder='Your Email' required/>
+                            <textarea name="message" className="form-control" placeholder='Your Message' required/>
                         </div>
                         <div className="my-3 text-center pt-3">
                             <button type="submit" value="Send" className="btn bg-info text-white px-5 py-2">SEND</button>
