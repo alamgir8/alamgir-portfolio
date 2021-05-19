@@ -329,7 +329,7 @@ const Portfolio = () => {
                                                                         All player have specific amount of weekly salary that will also add in customers total cost price after adding this player. A customer can add maximum eleven player in their team list.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools: <b>HTML, CSS, Bootstrap, Javascript, React, Bootstrap, CSS, FakeData for player list and other essential elements</b>
+                                                                        Using Tools: <b>HTML, CSS, Bootstrap, Javascript, React, FakeData for player list and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
