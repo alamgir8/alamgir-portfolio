@@ -123,7 +123,7 @@ const Portfolio = () => {
                                                                             In the Customer Dashboard, a customer can see his/her ordered service, total order, the current status of that order and can review the service. Customers can add service in his/her order list by complete payment with stripe. But all can be done only when he/she login by google or Facebook or creating a new account.
                                                                         </li>
                                                                         <li className='py-1'>
-                                                                            Using Tools:  <b>React, React-Router, Node, MongoDB, Express, Firebase, Bootstrap, Stripe, and other essential elements.</b>
+                                                                            Using Tools:  <b>HTML, CSS, Bootstrap, Javascript, React, React-Router, Node, MongoDB, Express, Firebase, Stripe, and other essential elements.</b>
                                                                         </li>
                                                                     </ol>
                                                             </div>
@@ -176,7 +176,7 @@ const Portfolio = () => {
                                                                         All add products will show dynamically on the home page.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools:  <b>Firebase authentication, React, React-Router, MongoDB, Express Node.js, Bootstrap,and other essential elements.</b>
+                                                                        Using Tools:  <b>HTML, CSS, Bootstrap, Javascript, Firebase authentication, React, React-Router, MongoDB, Express Node.js and other essential elements.</b>
                                                                     </li>
                                                                 </ol>
                                                             </div>
@@ -227,7 +227,7 @@ const Portfolio = () => {
                                                                         On this site, showing google Maps by the iframe.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools: <b>React, React-Router, Firebase authentication, Private route, Bootstrap, and other essential elements.</b>
+                                                                        Using Tools: <b>HTML, CSS, Bootstrap, Javascript, React, React-Router, Firebase authentication, and other essential elements.</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -277,7 +277,7 @@ const Portfolio = () => {
                                                                         Anyone can see specific club information by clicking on the explore button on every club description option.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools:  <b>React, React-Router, Bootstrap, API, and other essential elements.</b>
+                                                                        Using Tools:  <b>HTML, CSS, Bootstrap, Javascript, React, React-Router, Bootstrap, API, and other essential elements.</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
@@ -329,7 +329,7 @@ const Portfolio = () => {
                                                                         All player have specific amount of weekly salary that will also add in customers total cost price after adding this player. A customer can add maximum eleven player in their team list.
                                                                     </li>
                                                                     <li className='py-1'>
-                                                                        Using Tools: <b>React, Bootstrap, CSS, FakeData for player list and other essential elements</b>
+                                                                        Using Tools: <b>HTML, CSS, Bootstrap, Javascript, React, Bootstrap, CSS, FakeData for player list and other essential elements</b>
                                                                     </li>
                                                                 </ol>
                                                         </div>
