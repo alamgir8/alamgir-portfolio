@@ -148,10 +148,10 @@ const Portfolio = () => {
                                                           <a href="https://fresh-super-market.web.app/" target='blank' className="info">Live View <span className='mx-1 h6 text-white'><FaEye/></span></a>
                                                       </li>
                                                       <li className='mx-2'>
-                                                          <a href="https://github.com/alamgir8/fresh-super-market" target='blank' className="info">Client <span className='mx-1 h6 text-white'><FaGithub/></span></a>
+                                                          <a href="https://github.com/alamgir8/fresh-supermarket" target='blank' className="info">Client <span className='mx-1 h6 text-white'><FaGithub/></span></a>
                                                       </li>
                                                       <li className='mx-2'>
-                                                          <a href="https://github.com/alamgir8/Fresh-super-market-server" target='blank' className="info">Server <span className='mx-1 h6 text-white'><FaGithub/></span></a>
+                                                          <a href="https://github.com/alamgir8/fresh-supermarket-server" target='blank' className="info">Server <span className='mx-1 h6 text-white'><FaGithub/></span></a>
                                                       </li>
                                                       <li className='mx-2'>
                                                         <button className='info' onClick={handleSm}>
