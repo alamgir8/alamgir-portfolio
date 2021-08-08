@@ -9,14 +9,14 @@ import { FaSkype, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 function Navbar() {
   const [sidebar, setSidebar] = useState(true);
 
-  const showSidebar = () => setSidebar(!sidebar);
+
 
   return (
     <div className='fixed-top pb-2'>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div>
           <Link to='#' className='menu-bars text-end'>
-            <FaIcons.FaBars onClick={showSidebar} />
+            <FaIcons.FaBars onClick={() => setSidebar(!sidebar)} />
           </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}> 

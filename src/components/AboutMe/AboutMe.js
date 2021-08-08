@@ -22,7 +22,7 @@ const AboutMe = () => {
                                 <div className="col-md-5 offset-md-2">
                                 <div className="my-details">
                                         <h5 className="pb-2 h3">Professional Web-Developer</h5>
-                                        <p>Hello, I'm Alamgir Hossain, I can help you with HTML, CSS, Bootstrap, JavaScript, React, React-Router, Node.js, MongoDB, and Express.js, Material-Ui, Redux, Heroku, Firebase, Netlify, Swiper.js, React Hook Form, Git, Npm. I'm not a master of any, but know how to use Google for help.</p>
+                                        <p>Hello, I'm Alamgir Hossain, I can help you with HTML, CSS, Bootstrap, Tailwind, JavaScript, React, React-Router, Next.js, Typescript, Node.js, MongoDB, and Express.js, Material-Ui, Redux, Heroku, Firebase, Netlify, Swiper.js, React Hook Form, Git, Npm. I'm not a master of any, but know how to use Google for help.</p>
                                         <p> Looking forward to building up a career in a well-established and environment-friendly organization where acquired knowledge and expertise can be used effectively and efficiently.</p>
                                     </div>
                                 </div>
